@@ -12,6 +12,9 @@ module.exports = {
       boxShadow: {
         'deep': '0 35px 60px -15px rgba(1, 1, 1, 0.5)',
       },
+      backgroundImage:{
+        'hero': "url('/Components/Waves.jsx)"
+      }
     },
   }
 }

@@ -26,7 +26,7 @@ const Nav = () => {
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex">
-        {navItems.map(item => (
+        {navItems.map(item => ( 
           <li
             key={item.id}
             className='text-blue-700 hover:text-white hover: focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-xl text-md px-4 py-1 text-center me-2 mt-1.5 mb-5 dark:text-black dark:hover:text-white dark:hover:bg-gradient-to-r from-[#805FDF] to-[#F09AB2] dark:focus:ring-blue-800 cursor-pointer transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300'
@@ -56,7 +56,7 @@ const Nav = () => {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
+            className='p-4 border-b rounded-xl hover:bg-[#805FDF] duration-300 hover:text-white cursor-pointer border-gray-600'
           >
             {item.text}
           </li>
