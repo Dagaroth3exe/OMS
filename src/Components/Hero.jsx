@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="flex justify-center items-center py-10">
+      <div className="flex justify-center items-center py-10 fo">
         <section className="max-w-4xl px-5 sm:px-10">
           <h1 className="text-[25px] sm:text-[35px] font-bold text-center sm:text-left pt-7">ORDER MANAGEMENT SYSTEM</h1>
           <br />

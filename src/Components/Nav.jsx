@@ -22,7 +22,7 @@ const Nav = () => {
   return (
     <div className="flex justify-between items-center h-[60px] w-full mx-auto px-4 pt-1 text-black" >
       {/* Logo */}
-      <h1 className="p-2 font-code w-full text-4xl font-bold text-[#805FDF]">Blurock</h1>
+      <h1 className="p-2 w-full text-4xl font-bold text-[#805FDF]">Blurock</h1>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex">
